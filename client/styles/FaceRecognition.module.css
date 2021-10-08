@@ -1,0 +1,21 @@
+.faceRecDisplay {
+  width: 320px;
+  height: 240px;
+  position: relative;
+}
+
+.faceRecWebcam {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 240px;
+}
+
+.faceRecOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 240px;
+}

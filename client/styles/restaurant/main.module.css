@@ -1,0 +1,26 @@
+.locationName {
+  font-size: 3rem;
+}
+
+.locationLogo {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.actionButtonContainer {
+  width: 250px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 3px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.actionButtonContainer:hover {
+  background-color: darkgray;
+  cursor: pointer;
+}
+
+.actionButtonText {
+  font-size: 2rem;
+}
