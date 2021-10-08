@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/restaurant-categories",
+      "handler": "restaurant-category.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/restaurant-categories/count",
+      "handler": "restaurant-category.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/restaurant-categories/:id",
+      "handler": "restaurant-category.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/restaurant-categories",
+      "handler": "restaurant-category.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/restaurant-categories/:id",
+      "handler": "restaurant-category.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/restaurant-categories/:id",
+      "handler": "restaurant-category.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

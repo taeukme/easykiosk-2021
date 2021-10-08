@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organization_types",
+  "info": {
+    "name": "Organization Type",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    }
+  }
+}

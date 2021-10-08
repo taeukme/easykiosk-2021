@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurant_categories",
+  "info": {
+    "name": "RestaurantCategory",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "restaurant": {
+      "via": "categories",
+      "model": "restaurant"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "menus": {
+      "via": "category",
+      "collection": "menu"
+    }
+  }
+}
